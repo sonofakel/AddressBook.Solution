@@ -11,9 +11,9 @@
 | Behavior  |  Input  | Output  |
 |---|---|---|
 | Enter data into address form and be taken to new contact page | Charlie Kelson, 206-715-9999, 911 24th Ave, Seattle, WA, 98122  |  "You created a contact" |
-|  |   |   |  
-|  |   |   |  
-|  |   |   |  
+| Contact page has data of contact just created under "You created... message" |  Charlie Kelson, 206-715-9999, 911 24th Ave, Seattle, WA, 98122 |  Charlie Kelson, 206-715-9999, 911 24th Ave, Seattle, WA, 98122 |  
+| User presses link to homepage | Homepage link  | /  |  
+| User sees newly added address on homepage |  Charlie Kelson | Charlie Kelson   |  
 |  |   |   |  
 
 

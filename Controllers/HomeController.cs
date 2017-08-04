@@ -37,12 +37,18 @@ namespace AddressBook.Controllers
         // }
 
 
-
         [HttpGet("/contact/details/{id}")]
         public ActionResult ContactInstance(int id)
         {
             return View(Contact.Find(id));
 
+        }
+
+        [HttpPost("/address-book/clear")]
+        public ActionResult Clear()
+        {
+            Contact.ClearAll();
+            return View();
         }
     }
 }
