@@ -13,17 +13,17 @@
 |Click link on Homepage to fill out form|User presses form button|taken to form|
 | Enter data into address form, presses submit and be taken to new contact page | Charlie Kelson, 206-715-9999, 911 24th Ave, Seattle, WA, 98122  |  "You created a contact" |
 | Contact page has data of contact just created under "You created... message" |  Charlie Kelson, 206-715-9999, 911 24th Ave, Seattle, WA, 98122 |  Charlie Kelson, 206-715-9999, 911 24th Ave, Seattle, WA, 98122 |  
-| User presses link to homepage | Homepage link  | /  |  
-| User sees newly added address on homepage in newly created contact page|  Charlie Kelson | Charlie Kelson   |  
+| User presses link to homepage on newly created contact page| Homepage link  | /  |  
+| User sees newly added address on homepage |  Charlie Kelson | Charlie Kelson   |  
 | User presses button to clear all contacts in Address Book | press "Clear"  |  Clears all contacts at takes user to a confirmation page |  
 
 
 
 ## Description
 
-_A website where you can store contact information for people you know.
+_A website where you can store contact information for people you know._
 
-- Properties like the persons name, number and address are stored for later retrieval._
+- Properties like the persons name, number and address are stored for later retrieval.
 
 ## Setup/Installation Requirements
 
