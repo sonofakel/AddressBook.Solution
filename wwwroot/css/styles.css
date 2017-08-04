@@ -1,5 +1,7 @@
-.home-header {
+.home-header h1{
   text-align: center;
+  font-size: 54px;
+  margin: 6%;
 }
 
 .form-entry {
@@ -8,4 +10,22 @@
 
 .home-buttons {
   text-align: center;
+}
+
+.btn{
+  margin: 5%!important;
+}
+
+.contact-list {
+  padding-bottom: 10%;
+  border: 1px black solid;
+}
+
+.no-contacts {
+  margin-top: 20%;
+  text-align: center;
+}
+
+.form-control {
+  margin: 2%;
 }

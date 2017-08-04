@@ -3,16 +3,16 @@
 }
 
 <div class="home-header">
-<h1>Fill out the form below to add a contact</h1>
+<h1>Add a contact</h1>
 </div>
 <div class="form-entry">
-    <form action="/contact/new" method="post">
-        <label for="name">Enter Name</label>
-        <input type="text" name="name" id="name">
-        <label for="number">Enter Number</label>
-        <input type="text" name="number" id="number">
-        <label for="address">Enter Address</label>
-        <input type="text" name="address" id="address">
-        <button type="submit" name="button">Submit!</button>
+    <form action="/contact/new" method="post" class="form-inline">
+        <label class="sr-only" for="inlineFormInput">Enter Name</label>
+        <input class="form-control mb-2 mr-sm-2 mb-sm-0" id="inlineFormInput" placeholder="Contact Name" type="text" name="name">
+        <label class="sr-only" for="inlineFormInput">Enter Number</label>
+        <input class="form-control mb-2 mr-sm-2 mb-sm-0" id="inlineFormInput" placeholder="Contact Number" type="text" name="number">
+        <label class="sr-only" for="inlineFormInput">Enter Address</label>
+        <input class="form-control mb-2 mr-sm-2 mb-sm-0" id="inlineFormInput" placeholder="Contact Address" type="text" name="address">
+        <button type="submit" class="btn btn-info" name="button">Submit!</button>
     </form>
 </div>
