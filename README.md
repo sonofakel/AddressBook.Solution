@@ -28,6 +28,7 @@ _A website where you can store contact information for people you know._
 ## Setup/Installation Requirements
 
 * _Clone repo and open locally in modern browser._
+* _Follow this link to set up environment for .NET Core https://www.microsoft.com/net/core_
 
 
 ## Known Bugs
