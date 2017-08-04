@@ -6,6 +6,9 @@
 
 .form-entry {
   text-align: center;
+  border: 1px black solid;
+  padding-top: 6%;
+  border-radius: 10px;
 }
 
 .home-buttons {
@@ -28,4 +31,16 @@
 
 .form-control {
   margin: 2%;
+}
+
+li.list-new {
+  list-style-type: none;
+}
+
+.new-contact-result {
+  margin-left: 21%;
+}
+
+.new-button {
+  text-align: center;
 }
