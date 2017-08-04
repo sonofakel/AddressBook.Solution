@@ -1,0 +1,14 @@
+@{
+    Layout = "_Layout";
+}
+<h1>Addresses</h1>
+<h3>Click on the name so see more information about the contact</h3>
+
+@foreach (var contact in Model)
+{
+    <ul>
+        <li><h3><a href= "/contact/@contact.GetId()">@contact.GetName()</a></h3></li>
+    </ul>
+}
+
+<p><a href="/form">Click here to fill out form for another contact</a></p>

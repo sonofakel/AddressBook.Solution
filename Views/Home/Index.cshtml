@@ -1,0 +1,20 @@
+@{
+    Layout = "_Layout";
+}
+
+<h1>Address Book</h1>
+
+@if (@Model.Count == 0)
+{
+  <h3>No contacts have been added yet!</h3>
+}
+
+
+@foreach (var contact in Model)
+{
+    <ul>
+        <li><h3><a href= "/contact/@contact.GetId()">@contact.GetName()</a></h3></li>
+    </ul>
+}
+
+<p><a href="/form">Click here to create a new address</a></p>
