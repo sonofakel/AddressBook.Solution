@@ -10,7 +10,7 @@
 
 | Behavior  |  Input  | Output  |
 |---|---|---|
-|  |   |   |
+| Enter data into address form and be taken to new contact page | Charlie Kelson, 206-715-9999, 911 24th Ave, Seattle, WA, 98122  |  "You created a contact" |
 |  |   |   |  
 |  |   |   |  
 |  |   |   |  
