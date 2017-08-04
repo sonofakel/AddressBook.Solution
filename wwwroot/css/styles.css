@@ -1,7 +1,11 @@
+.body {
+  background-image: url("../../../img/wormz.png");
+}
+
 .home-header h1{
   text-align: center;
   font-size: 54px;
-  margin: 6%;
+  margin: 4%;
 }
 
 .form-entry {
@@ -15,13 +19,18 @@
   text-align: center;
 }
 
-.btn{
+.home-btn{
   margin: 5%!important;
+}
+
+.btn {
+  margin: 1%;
 }
 
 .contact-list {
   padding-bottom: 10%;
   border: 1px black solid;
+  border-radius: 10px;
 }
 
 .no-contacts {
@@ -38,9 +47,13 @@ li.list-new {
 }
 
 .new-contact-result {
-  margin-left: 21%;
+  text-align: center;
 }
 
 .new-button {
+  text-align: center;
+  margin-top:7%;
+}
+.clear-form-btn {
   text-align: center;
 }

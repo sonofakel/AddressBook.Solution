@@ -1,12 +1,24 @@
 @{
     Layout = "_Layout";
 }
-    <ul>
-        <li><h3>@Model.GetName()</h3></li>
-        <li><h3>@Model.GetNumber()</h3></li>
-        <li><h3>@Model.GetAddress()</h3></li>
-    </ul>
+<div class="home-header">
+<h1>@Model.GetName()</h1>
+</div>
+<div class="row">
+  <div class="col-md-2">
+  </div>
+  <div class="col-md-8 new-contact-result">
 
+    <h3 class="list-new">Number: @Model.GetNumber()</h3>
+    <h3 class="list-new">Address: @Model.GetAddress()</h3>
 
-<p><a href="/contact/form">Click here to create a new address</a></p>
-<p><a href="/">Click here to see all the addresses in your address book</a></p>
+<form action="/" class="new-button">
+  <button type="submit" class="btn btn-info btn-lg">View all contacts</button>
+</form>
+<form action="/contact/form">
+  <button type="submit" class="btn btn-info btn-lg">Create New Contact</button>
+</form>
+</div>
+<div class="col-md-2">
+</div>
+</div>

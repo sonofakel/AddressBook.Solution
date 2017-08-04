@@ -1,5 +1,20 @@
 @{
     Layout = "_Layout";
 }
-<h1>Address book cleared!</h1>
-<p><a href="/contact/form">Add a new contact</a></p>
+<div class="home-header">
+<h1>Address Book Cleared!</h1>
+</div>
+<div class="row">
+  <div class="col-md-2">
+  </div>
+  <div class="col-md-8 clear-form-btn">
+<form action="/contact/form">
+  <button type="submit" class="btn btn-info btn-lg">Create New Contact</button>
+</form>
+<form action="/">
+  <button type="submit" class="btn btn-info btn-lg">Back Home</button>
+</form>
+</div>
+<div class="col-md-2">
+</div>
+</div>
