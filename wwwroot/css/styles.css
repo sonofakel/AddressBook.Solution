@@ -3,14 +3,23 @@ body {
   color: #7b7b7b;
 }
 
+a {
+  color: #9ca8ff;
+}
+
+a:hover {
+  color: pink;
+}
+
 .jumbotron {
   text-align: center;
   background-image: url("../../img/pink-dust.png");
   color: pink;
   font-family: 'Ubuntu', sans-serif;
+  letter-spacing: 5px;
 }
 
-.home-header h1{
+.home-header h1 {
   text-align: center;
   font-size: 54px;
   margin: 4%;
@@ -28,7 +37,7 @@ body {
   text-align: center;
 }
 
-.home-btn{
+.home-btn {
   margin: 5%!important;
 }
 
@@ -50,6 +59,7 @@ body {
 
 .form-control {
   margin: 2%;
+  width: 97%
 }
 
 li.list-new {
@@ -66,26 +76,27 @@ li.list-new {
 
 .new-button {
   text-align: center;
-  margin-top:7%;
+  margin-top: 7%;
 }
+
 .clear-form-btn {
   text-align: center;
 }
 
 .btn-info {
-    color: #fff;
-    background-color: #9ca8ff;
-    border-color: #46b8da;
+  color: #fff;
+  background-color: #9ca8ff;
+  border-color: #46b8da;
 }
 
 .btn-warning {
-    color: #fff;
-    background-color: #ffcf8a;
-    border-color: #eea236;
-  }
+  color: #fff;
+  background-color: #ffcf8a;
+  border-color: #eea236;
+}
 
 .btn-info:hover {
-    color: #fff;
-    background-color: #586cff;
-    border-color: #269abc;
+  color: #fff;
+  background-color: #586cff;
+  border-color: #269abc;
 }
