@@ -18,15 +18,15 @@ namespace AddressBook.Controllers
         {
             return View("form");
         }
-        [HttpPost("/new")]
+        [HttpPost("/contact/new")]
         public ActionResult FormPost()
         {
             Contact myContact = new Contact();
             myContact.SetName(Request.Form["name"]);
             myContact.SetNumber(Request.Form["number"]);
             myContact.SetAddress(Request.Form["address"]);
-            List<Contact> allContacts = Contact.GetAll();
-            return View("new", allContacts);
+
+            return View("new", myContact);
 
         }
         // [HttpGet("/list")]
@@ -36,7 +36,9 @@ namespace AddressBook.Controllers
         //     return View(allContacts);
         // }
 
-        [HttpGet("/contact/{id}")]
+
+
+        [HttpGet("/contact/details/{id}")]
         public ActionResult ContactInstance(int id)
         {
             return View(Contact.Find(id));
