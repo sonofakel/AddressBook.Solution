@@ -13,7 +13,7 @@ namespace AddressBook.Controllers
           List<Contact> allContacts = Contact.GetAll();
           return View(allContacts);
         }
-        [HttpGet("/form")]
+        [HttpGet("/contact/form")]
         public ActionResult FormFill()
         {
             return View("form");
